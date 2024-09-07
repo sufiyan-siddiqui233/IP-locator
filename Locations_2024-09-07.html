@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c827d0e9750d19ebf879344e44f1b238 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c827d0e9750d19ebf879344e44f1b238" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c827d0e9750d19ebf879344e44f1b238 = L.map(
+                "map_c827d0e9750d19ebf879344e44f1b238",
+                {
+                    center: [0.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_953fa7649a8b2fd3ce967e8dd15335df = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_953fa7649a8b2fd3ce967e8dd15335df.addTo(map_c827d0e9750d19ebf879344e44f1b238);
+        
+    
+            var marker_e8d87d517f111863db3761ee5a188326 = L.marker(
+                [37.4056, -122.0775],
+                {}
+            ).addTo(map_c827d0e9750d19ebf879344e44f1b238);
+        
+    
+        var popup_c3b4e73463e890827ef373cb0ffc53b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e1353f2100fa10ded2742dbdb257a1b = $(`<div id="html_1e1353f2100fa10ded2742dbdb257a1b" style="width: 100.0%; height: 100.0%;">Mountain View, California</div>`)[0];
+                popup_c3b4e73463e890827ef373cb0ffc53b6.setContent(html_1e1353f2100fa10ded2742dbdb257a1b);
+            
+        
+
+        marker_e8d87d517f111863db3761ee5a188326.bindPopup(popup_c3b4e73463e890827ef373cb0ffc53b6)
+        ;
+
+        
+    
+    
+            var marker_4a897a2cb4c970fd58f1a81d4f6e9f85 = L.marker(
+                [-6.2146, 106.8451],
+                {}
+            ).addTo(map_c827d0e9750d19ebf879344e44f1b238);
+        
+    
+        var popup_d843e2103f77b315efc799ee17ad8a72 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cdb850ec6d951fab75a516570fbafcdf = $(`<div id="html_cdb850ec6d951fab75a516570fbafcdf" style="width: 100.0%; height: 100.0%;">Jakarta, Jakarta</div>`)[0];
+                popup_d843e2103f77b315efc799ee17ad8a72.setContent(html_cdb850ec6d951fab75a516570fbafcdf);
+            
+        
+
+        marker_4a897a2cb4c970fd58f1a81d4f6e9f85.bindPopup(popup_d843e2103f77b315efc799ee17ad8a72)
+        ;
+
+        
+    
+    
+            var marker_164444e47d9283f5a2ae2129d32d3ed6 = L.marker(
+                [38.8276, -91.0201],
+                {}
+            ).addTo(map_c827d0e9750d19ebf879344e44f1b238);
+        
+    
+        var popup_b55d7f41f95602619c34b4d95dbe41f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_17cc20b152444f7ce270bd3261403d58 = $(`<div id="html_17cc20b152444f7ce270bd3261403d58" style="width: 100.0%; height: 100.0%;">Wright City, Missouri</div>`)[0];
+                popup_b55d7f41f95602619c34b4d95dbe41f4.setContent(html_17cc20b152444f7ce270bd3261403d58);
+            
+        
+
+        marker_164444e47d9283f5a2ae2129d32d3ed6.bindPopup(popup_b55d7f41f95602619c34b4d95dbe41f4)
+        ;
+
+        
+    
+    
+            var marker_3ff4ce655cd4c82a76f698420cce5571 = L.marker(
+                [44.98, -93.2638],
+                {}
+            ).addTo(map_c827d0e9750d19ebf879344e44f1b238);
+        
+    
+        var popup_879e102dd589c390615aa779357950ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a0c72d63caaad3f292ad281eb74d875 = $(`<div id="html_7a0c72d63caaad3f292ad281eb74d875" style="width: 100.0%; height: 100.0%;">Minneapolis, Minnesota</div>`)[0];
+                popup_879e102dd589c390615aa779357950ae.setContent(html_7a0c72d63caaad3f292ad281eb74d875);
+            
+        
+
+        marker_3ff4ce655cd4c82a76f698420cce5571.bindPopup(popup_879e102dd589c390615aa779357950ae)
+        ;
+
+        
+    
+    
+            var marker_7e8aa045c3f56526c85c2b9f5b2c6790 = L.marker(
+                [20.854, 79.3247],
+                {}
+            ).addTo(map_c827d0e9750d19ebf879344e44f1b238);
+        
+    
+        var popup_a9307b7d39179715a79592e24aed5c42 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_972c8ed13e1666a32e55c48a82c179f2 = $(`<div id="html_972c8ed13e1666a32e55c48a82c179f2" style="width: 100.0%; height: 100.0%;">Umred, Maharashtra</div>`)[0];
+                popup_a9307b7d39179715a79592e24aed5c42.setContent(html_972c8ed13e1666a32e55c48a82c179f2);
+            
+        
+
+        marker_7e8aa045c3f56526c85c2b9f5b2c6790.bindPopup(popup_a9307b7d39179715a79592e24aed5c42)
+        ;
+
+        
+    
+</script>
+</html>
